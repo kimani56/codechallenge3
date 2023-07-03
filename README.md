@@ -5,7 +5,9 @@ Features
 View the details of the first movie, including its poster, title, runtime, showtime, and available tickets.
 See a menu of all movies on the left side of the page.
 Buy tickets for a movie, with real-time updates on the available ticket count.
-Technologies Used
+
+
+TECHNOLOGIES USED
 HTML5
 CSS3
 JavaScript
@@ -21,16 +23,18 @@ GET /films/1: Retrieves the details of the first movie.
 GET /films: Retrieves a list of all movies.
 The server responds with JSON data containing movie details such as ID, title, runtime, capacity, showtime, tickets sold, description, and poster URL.
 
-Usage
+USAGE
+
 When the page loads, you will see the details of the first movie, including the movie poster, title, runtime, showtime, and available tickets.
 On the left side of the page, you will find a menu displaying all the available movies.
 To buy a ticket for a movie, enter the desired quantity in the "Ticket Quantity" input field and click the "Buy Ticket" button.
 The available ticket count will update in real-time, and if the showing is sold out, you will not be able to buy any more tickets.
 Please note that this application does not persist ticket purchases. It is for demonstration purposes only.
 
-Contributing
+CONTRIBUTING
+
 Contributions to the Flatdango project are welcome! If you find any issues or have suggestions for improvement, please submit a pull request or open an issue on the GitHub repository.
 
-License
+LICENSE
 This project is licensed under the MIT License.
 
