@@ -8,6 +8,7 @@ Buy tickets for a movie, with real-time updates on the available ticket count.
 
 
 TECHNOLOGIES USED
+
 HTML5
 CSS3
 JavaScript
