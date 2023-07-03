@@ -3,36 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flatdango - Movie ticket purchase </title>
-    <link rel="stylesheet" href="style.css"
+    <title>Flatdango - Movie ticket purchase</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>
-            Movie Ticket Purchase
-        </h1>
+        <h1>Movie Ticket Purchase</h1>
     </header>
 
     <main>
-        <div class ="movie details">
-        <img id ="movie poster" src = "" alt = "movie poster">
-        <h2 id = "movie-title"></h2>
-        <p id ="movie-runtime"></p>
-        <p id ="movie-capacity"></p>
-        <p id ="movie-showtime"></p>
-        <p id ="available tickets"></p>
-        <p id ="movie-description"></p>
+        <div class="movie-details">
+            <img id="movie-poster" src="" alt="movie poster">
+            <h2 id="movie-title"></h2>
+            <p id="movie-runtime"></p>
+            <p id="movie-capacity"></p>
+            <p id="movie-showtime"></p>
+            <p id="available-tickets"></p>
+            <p id="movie-description"></p>
         </div>
-        <form id ="ticket form"
-            <label for="ticket quantity">Ticket Quantity:</label>
+        <form id="ticket-form">
+            <label for="ticket-quantity">Ticket Quantity:</label>
             <input type="number" id="ticket-quantity" name="ticket-quantity" min="1" max="10" required>
             <button type="submit">Buy Ticket</button>
         </form>
     </main>
-    <footer>
-        <ul id ="films"></ul>
-    </footer>
-    <script src="index.js"></script>
-</body>
 
+    <footer>
+        <ul id="films"></ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
